@@ -12,8 +12,8 @@ Dokumentasi untuk initialisasi project
 
 ```bash
 npm i -g @nestjs/cli
-nest new my-auth-app
-cd my-auth-app
+nest new agrihub-backend
+cd agrihub-backend
 ```
 
 2. Install dependency utama:
