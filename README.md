@@ -41,9 +41,9 @@ Edit `prisma/schema.prisma` (contoh di bagian 3.1), dan atur `DATABASE_URL` di `
 
 ```
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb?schema=public"
-JWT_SECRET="isi_rahasia_panjang"
-JWT_EXPIRATION="15m"
-REFRESH_TOKEN_EXPIRATIONDAYS=30
+JWT_SECRET="secretkey123"
+CLIENT_URL = http://localhost:3000
+PORT=3001
 ```
 
 Jalankan migrate setelah membuat schema:
