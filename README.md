@@ -37,7 +37,7 @@ npm install -D prisma ts-node-dev @types/passport-jwt @types/passport-local @typ
 npx prisma init
 ```
 
-Edit `prisma/schema.prisma` (contoh di bagian 3.1), dan atur `DATABASE_URL` di `.env`:
+Edit `prisma/schema.prisma`, dan atur `DATABASE_URL` di `.env`:
 
 ```
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb?schema=public"
